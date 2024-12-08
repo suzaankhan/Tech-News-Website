@@ -1,0 +1,27 @@
+
+.main{
+    display: flex;
+    padding: 1.5rem 0;
+    justify-content: center;
+    overflow: hidden;
+}
+
+button{
+    background-color: rgb(21, 18, 37);
+    color: white;
+    padding: 0.8rem 2rem;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(45, 39, 80);
+    transition: 0.2s ease;
+}
+
+#page-count{
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+    color: rgb(29, 29, 29);
+    font-size: 1.2rem;
+}
