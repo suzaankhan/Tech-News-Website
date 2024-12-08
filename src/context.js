@@ -15,7 +15,7 @@ let initialState = {
 }
 
 // data provider
-const AppProvider = ({children}) => { //app ka saar data children mai agaya
+const AppProvider = ({children}) => { //app ka saara data children mai agaya
 
     const [state, dispatch] = useReducer(reducer, initialState);
 
